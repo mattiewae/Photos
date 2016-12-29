@@ -1,5 +1,5 @@
-﻿$srcFolder = "C:\Users\Mathias\Downloads\Sofie"
-$taregtFolder = "C:\Users\Mathias\Pictures\Sofie"
+﻿$srcFolder = "C:\Users\Mathias\Downloads\"
+$taregtFolder = "C:\Users\Mathias\Pictures\"
 
 $files = Get-ChildItem -Path $srcFolder -include *.* –Recurse 
 
